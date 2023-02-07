@@ -4,9 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Whitney, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
 /* HEADING */
 .flex-header{
-    background-color: lightblue;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
     
@@ -15,23 +23,30 @@
 .nav-flex{
     width: 60%;
     display: flex;
-    background-color: orange;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-nav > div {
-    border: 1px black dashed;
+.logo img {
+    width: auto;
 }
 
 .link{
     width: 60%;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
 
 }
+
+.link a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 a{
     text-decoration: none;
+    color: inherit;
+    
 }
 
 .logo{
@@ -43,13 +58,24 @@ a{
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 5px;
+}
+
+.button-head {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+
 }
 /* ENDNAVIGATION */
 
 /* FIRSTSECTION */
 .header-section {
-    background-color: darkblue;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,14 +83,64 @@ a{
 }
 
 .fuskia{
-    width: 700px;
-    background-color: fuchsia;
+    width: 750px;
     height: 300px;
-    border: 1px black dashed;
+    text-align: center;
+    margin-top: 10px;
+    
 }
+
+.main-title {
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.text-head {
+    font-size: 1.2rem;
+    line-height: 35px;
+
+}
+
+.flex-button {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.button-white {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+.button-black {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+
 /* ENDFIRSTSECTION */
 
 /* MAIN */
+main {
+    color: black;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+.main-text {
+    margin-top: 20px;
+}
 
 /* CONTENITOR SECTION */
 .container {
@@ -105,15 +181,11 @@ a{
 .blue {
     height: 350px;
     width: 60%;
-    background-color: rgb(20, 67, 194);
-    
 }
 
 .pink {
     height: 350px;
     width: 40%;
-    background-color: pink;
-    
 }
 
 .green {
