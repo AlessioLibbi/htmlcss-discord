@@ -264,26 +264,36 @@ h2 {
 
 .second-footer {
     background-color: #23272A;
-    height: 80px;
     width: 100%;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white ;
     display: flex;
     justify-content: center;
     align-items: flex-end ;
 }
 
 .footer-navigation {
+    border-bottom: 1px solid #7289DA;
+    border-top: 1px solid #7289DA ;
     width: 60%;
-    background-color: rgb(75, 160, 160);
-    height: 60px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .button {
-    padding: 5px;
-    background-color: rgb(190, 193, 196);
-    border: 1px black dashed;
+    border: 1px solid #7289DA;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #7289DA;
+    color: white;
+}
+
+
+/* Bonus */
+.wave {
+    margin: -5px;
+}
+
+.reverse {
+    transform: rotate(180deg);
 }
